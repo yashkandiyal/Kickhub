@@ -1,0 +1,146 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.detail-filler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6.75rem;
+}
+/* Credit Card */
+.credit-card {
+  width: 360px;
+  height: 400px;
+  /* margin: 60px auto 0; */
+  border: 2.3px solid #ddd;
+  border-radius: 6px;
+
+  box-shadow: 1px 5px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.form-header {
+  height: 60px;
+  padding: 20px 30px 0;
+  border-bottom: 3px solid #e1e8ee;
+}
+
+.form-body {
+  height: 340px;
+  padding: 50px 30px 20px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  color: #000000;
+}
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card-number,
+.month select,
+.year select {
+  height: 2.75rem;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+  font-weight: 400;
+  opacity: 0.8;
+  color: #0c0c0c;
+}
+.card-number {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+}
+.month select,
+.year select {
+  width: 145px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+
+  background-position: 85% 50%;
+}
+
+.month select {
+  float: left;
+}
+
+.year select {
+  float: right;
+}
+.cvv-input input {
+  height: 2.5rem;
+  float: left;
+  width: 145px;
+  padding-left: 20px;
+  border: 2px solid #e1e8ee;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.cvv-details {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.cvv-details p {
+  margin-top: 6px;
+}
+
+.proceed-btn {
+   
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 100%;
+  border-color: transparent;
+  border-radius: 6px;
+  margin-top: 1rem;
+  
+  background-color: #009cde;
+}
+
+
+
+.proceed-btn:hover {
+  background-color: #7dc855;
+}
+.proceed-btn a {
+  text-decoration: none;
+}
+
+
+.button-field {
+  margin-top: 8.85rem;
+}
