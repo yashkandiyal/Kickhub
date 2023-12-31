@@ -47,7 +47,7 @@ function Home_page() {
             </div>
             <div className="fright">
               <div className="images">
-                <img src={jordan10} alt="" />
+                <img src={jordan10} alt="" loading="lazy"/>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ function Home_page() {
           <h2>Recently Viewed</h2>
           <div className="boxes">
             <div className="box1 box">
-              <img src={photo1} alt="" />
+              <img src={photo1} alt="" loading="lazy"/>
               <div className="cart-feature home_page">
                 <h2>Nike 1</h2>
                 <h4>MRP:₹14,100</h4>
@@ -74,7 +74,7 @@ function Home_page() {
               </div>
             </div>
             <div className="box2 box">
-              <img src={photo2} alt="" />
+              <img src={photo2} alt="" loading="lazy"/>
               <div className="cart-feature home_page">
                 <h2>Nike 2</h2>
                 <h4>MRP:₹18,100</h4>
@@ -82,7 +82,7 @@ function Home_page() {
               </div>
             </div>
             <div className="box3 box">
-              <img src={photo3} alt="" />
+              <img src={photo3} alt="" loading="lazy"/>
               <div className="cart-feature home_page">
                 <h2>Nike 3</h2>
                 <h4>MRP:₹20,100</h4>

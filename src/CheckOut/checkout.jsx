@@ -32,7 +32,7 @@ function checkout() {
             {cart.map((item) => (
               <div key={item.id} className="row">
                 <div>
-                  <img src={item.image} alt="" />
+                  <img src={item.image} alt="" loading="lazy"/>
                 </div>
                 <div>{item.name}</div>
                 <div>{item.mrp}</div>

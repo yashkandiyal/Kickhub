@@ -617,7 +617,7 @@ select{
   transform: translate(-50%,-50%);
    /* Use a semi-transparent blue color */
   border-radius: 50%;
-  pointer-events: none; /* Ensure that the follower doesn't block mouse events */
+ /* Ensure that the follower doesn't block mouse events */
   mix-blend-mode: difference; /* Apply blending mode for a cool effect */
   box-shadow: 0 0 10px rgba(128, 0, 128, 0.7); /* Add a subtle box shadow */
   

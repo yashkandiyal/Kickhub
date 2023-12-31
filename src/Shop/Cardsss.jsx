@@ -27,7 +27,7 @@ export default function Cards({ imageSource, shoename, mrp, prod }) {
       <div className="shop-container">
         <div className="row">
           <div className="shop-box">
-            <img src={imageSource} alt="" />
+            <img src={imageSource} alt="" loading="lazy"/>
             <div className="cart-feature">
               <h2>{shoename}</h2>
               <h4>{mrp}</h4>
