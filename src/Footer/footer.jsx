@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import '../App.css'
+
+import './Footer.css'
 function Footer() {
   const [footerVisible, setFooterVisible] = useState(false);
 
@@ -12,7 +13,7 @@ function Footer() {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup the event listener on component unmount
+    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };

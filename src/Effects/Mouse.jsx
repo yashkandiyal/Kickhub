@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
-import Home_page from "../landingPage/Home_page";
+import './Mouse.css'
+
 const MouseFollower = () => {
   const followerRef = useRef(null);
 
@@ -19,7 +20,7 @@ const MouseFollower = () => {
     window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      // Remove the event listener when the component unmounts
+      
       window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);

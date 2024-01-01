@@ -1,17 +1,16 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 import { CartState } from "../Context/Contextt";
 
 function Navbar() {
-  const {state}=CartState();
+  const { state } = CartState();
   return (
     <div className="navbar">
       <h1>
         <NavLink className="top-header" to="/">
-          {" "}
-          <h1>Kickshub</h1>{" "}
+          
+          <h1>Kickshub</h1>
         </NavLink>
       </h1>
       <div className="right">

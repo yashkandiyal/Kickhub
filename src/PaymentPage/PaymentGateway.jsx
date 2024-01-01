@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Payments.css";
-import upi from "../photos/upi-logo.webp";
-import { Link, useNavigate } from "react-router-dom";
+
+import {useNavigate } from "react-router-dom";
 
 function PaymentGateway() {
   const navigate = useNavigate();
@@ -17,8 +17,7 @@ function PaymentGateway() {
     e.preventDefault();
 
     if (isFormValid) {
-      // Proceed to the next page or take necessary action
-      // Use navigate to navigate to the next page
+      
       navigate("/success");
     } else {
       alert("Please fill in all the details before proceeding.");
@@ -33,7 +32,7 @@ function PaymentGateway() {
         </div>
 
         <div className="form-body">
-          {/* Card Number */}
+          
           <input
             type="text"
             className="card-number"
@@ -43,7 +42,7 @@ function PaymentGateway() {
             onChange={(e) => setCardNumber(e.target.value)}
           />
 
-          {/* Date Field */}
+        
           <div className="date-field">
             <div className="month">
               <select
@@ -65,7 +64,7 @@ function PaymentGateway() {
                 <option value="october">October</option>
                 <option value="november">November</option>
                 <option value="december">December</option>
-                {/* ... Options ... */}
+                
               </select>
             </div>
             <div className="year">
@@ -85,12 +84,12 @@ function PaymentGateway() {
                 <option value="2023">2023</option>
                 <option value="2024">2024</option>
 
-                {/* ... Options ... */}
+              
               </select>
             </div>
           </div>
 
-          {/* Card Verification Field */}
+          
           <div className="card-verification">
             <div className="cvv-input">
               <input
@@ -106,7 +105,7 @@ function PaymentGateway() {
             </div>
           </div>
 
-          {/* Buttons */}
+         
           <button
             type="submit"
             className="proceed-btn"

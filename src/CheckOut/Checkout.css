@@ -1,0 +1,77 @@
+.custom-table {
+    margin-top: 4rem;
+    height: 150vh;
+    width: 100%;
+  }
+  .custom-table img {
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    .custom-table tbody {
+      margin-top: 4rem;
+      margin-bottom: -100.63rem;
+    }
+  }
+  .custom-table tbody {
+    font-weight: 500;
+  }
+  .row {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .check-out {
+    height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-responsive p {
+    margin-bottom: -0.3rem;
+  }
+  .cart-responsive i {
+    margin-bottom: 1.8rem;
+  }
+  .payment {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .payment button {
+    font-size: 1.25rem;
+    border-radius: 12px;
+    padding: 0.5rem 0.5rem;
+  }
+  .payment button:hover {
+    transition: all 0.5s ease;
+    background-color: #010101;
+    color: aliceblue;
+  }
+  .row button {
+    border: none;
+  }
+  .row button:hover {
+    transition: all 0.5s ease;
+  }
+  
+  .trash {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  select {
+    font-size: 1rem;
+    border: none;
+  }
+  

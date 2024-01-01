@@ -1,4 +1,4 @@
-/* Global */
+
 * {
   box-sizing: border-box;
 }
@@ -19,11 +19,11 @@ body {
   align-items: center;
   margin-bottom: 6.75rem;
 }
-/* Credit Card */
+
 .credit-card {
   width: 360px;
   height: 400px;
-  /* margin: 60px auto 0; */
+  
   border: 2.3px solid #ddd;
   border-radius: 6px;
 

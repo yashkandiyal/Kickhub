@@ -1,8 +1,6 @@
 import React, { createContext, useContext, useReducer } from "react";
 import Data from "../Shop/data";
 import { Cartreducer } from "./Reducers";
-import Shop from "../Shop/shop";
-import Cards from "../Shop/Cardsss";
 
 const Cart = createContext();
 
