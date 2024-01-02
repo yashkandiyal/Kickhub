@@ -391,12 +391,11 @@ h4 {
 }
 /* shop ki css */
 .shop-container {
-  flex-wrap: wrap;
-  flex-direction: row;
+ 
   display: grid;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;  
+  height: 110vh;  
 }
 
 .row {
@@ -450,7 +449,9 @@ h4 {
     display: none;
   }
   .shop-box {
+    
     width: 90%; 
+    height: 85vh;
   }
 
   .shop-box img {
@@ -459,14 +460,7 @@ h4 {
     height: auto; 
     object-fit: cover;
   }
-  .shoe-container {
-    width: 100%;
-    column-gap: -2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+  
 }
 .shoe-container {
   width: 100%;
